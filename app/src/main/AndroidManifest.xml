@@ -21,9 +21,10 @@
         <service android:name=".ServiceMusic" android:enabled="true"></service>
     </application>
 
-    <!-- PERMISSIONS: INTERNET, MEDIA CONTROL, PHONE STATE -->
+    <!-- PERMISSIONS: INTERNET, MEDIA CONTROL, PHONE STATE, EXTERNAL STORAGE -->
     <uses-permission android:name="android.permission.INTERNET" />
     <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>
