@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="images">
+        <item>@drawable/music</item>
+        <item>@drawable/music2</item>
+        <item>@drawable/florencia</item>
+        <item>@drawable/mar</item>
+        <item>@drawable/florencia</item>
+    </array>
+
+</resources>
