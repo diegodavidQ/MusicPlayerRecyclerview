@@ -9,8 +9,8 @@
     <!--android:background="#00bcd4"-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/cardview_light_background"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
         android:orientation="horizontal"
         android:padding="10dp">
 
@@ -20,7 +20,7 @@
             android:layout_height="45dp"
             android:src="@android:drawable/ic_media_play"
             android:layout_gravity="center_vertical"
-            android:tint="@color/colorAccent"
+            android:tint="@color/colorPrimaryDark"
             android:foregroundGravity="center_vertical"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="8dp"
@@ -28,14 +28,13 @@
 
         <TextView
             android:id="@+id/title"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Title"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/primary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
             android:layout_gravity="center_vertical"
-            android:foregroundGravity="center_horizontal"
-            android:textStyle="bold|italic" />
+            android:fontFamily="@font/cormorant_upright"
+            android:text="Title"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
 
 
     </LinearLayout>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="diedav.david.diego.musicplayer.MainActivity"
-    android:background="@drawable/music">
+    android:background="@drawable/fondo">
 
 
     <android.support.design.widget.AppBarLayout
@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
+        android:fontFamily="@font/cormorant_upright"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout

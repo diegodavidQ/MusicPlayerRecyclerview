@@ -2,11 +2,11 @@
 <resources>
 
     <array name="images">
-        <item>@drawable/music</item>
-        <item>@drawable/music2</item>
-        <item>@drawable/florencia</item>
-        <item>@drawable/mar</item>
-        <item>@drawable/florencia</item>
+        <item>@drawable/audifonos</item>
+        <item>@drawable/audifonos2</item>
+        <item>@drawable/audifonos3</item>
+        <item>@drawable/audifonos4</item>
+        <item>@drawable/audifonos3</item>
     </array>
 
 </resources>

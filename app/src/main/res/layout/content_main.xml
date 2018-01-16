@@ -12,6 +12,10 @@
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@android:color/holo_blue_dark"
+        android:scrollbarSize="12dp"
+        android:fadeScrollbars="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
