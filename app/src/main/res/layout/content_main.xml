@@ -19,18 +19,35 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <!--
+
     <LinearLayout
         android:id="@+id/linearPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         >
 
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/cormorant_upright"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progbarSong"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtTimeTotal"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/cormorant_upright"
             android:text="@string/app_name"
@@ -39,6 +56,8 @@
 
     </LinearLayout>
 
-    -->
+
+
+
 
 </LinearLayout>
